@@ -12,5 +12,8 @@ anainstall:
 opencv:
 	conda install -c https://conda.binstar.org/menpo opencv3
 
+lockfile:
+	pip install fasteners
+
 anaPy35:
 	conda create -n py35 python=3.5 anaconda
